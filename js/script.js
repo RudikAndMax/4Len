@@ -6,11 +6,11 @@ $(document).ready(function () { //Когда страница прогружен
         brush = $(this).data('color');//Красим кисть
     });
 
-    $('.draw td').on('click',function () { //Событие на клик по ячейке для рисования
-        $(this).mousedown();
+    $('.draw td').on('mousedown',function () { //Событие на клик по ячейке для рисования
+        $(this).css('background-color',brush);
     });
 
-    $('.draw td').on('mousedown',function () { //Событие на наведение зажатой мыши
-        $(this).css('background-color',brush);
+    $('.draw td').on('mouseover',function (e) { //Событие на наведение зажатой мыши
+        if(e.which===1) $(this).css('background-color',brush);
     });
 });
