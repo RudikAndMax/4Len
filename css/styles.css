@@ -1,0 +1,53 @@
+table {
+    border: 2px solid black;
+    border-spacing: 0px;
+}
+.draw{
+    width: 400px;
+    height: auto;
+    float: left;
+    margin: 0 15px;
+}
+td{
+    border:none;
+    width: 25px;
+    height: 25px;
+}
+.colors{
+    border: none;
+    float: left;
+}
+.choose{
+    width: 23px;
+    height: 23px;
+    border: 2px solid black;
+    margin:auto;
+    padding:0;
+}
+.red{
+    background-color: red;
+}
+.orange{
+    background-color: orange;
+}
+.yellow{
+    background-color: yellow;
+}
+.green{
+    background-color: green;
+}
+.blue{
+    background-color: blue;
+}
+.violet{
+    background-color: blueviolet;
+}
+.pink{
+    background-color: hotpink;
+}
+.wh{
+    background-color: white;
+}
+.bl{
+    background-color: black;
+}
