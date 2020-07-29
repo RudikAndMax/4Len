@@ -7,7 +7,9 @@ table {
     height: auto;
     float: left;
     margin: 0 15px;
+
 }
+.draw td{}
 td{
     border:none;
     width: 25px;
@@ -23,6 +25,13 @@ td{
     border: 2px solid black;
     margin:auto;
     padding:0;
+}
+.choose:hover{
+    width: 25px;
+    height: 25px;
+    border: none;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
 }
 .red{
     background-color: red;
